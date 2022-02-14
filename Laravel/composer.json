@@ -6,6 +6,10 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
+<<<<<<< HEAD
+=======
+        "binarycabin/laravel-uuid": "^1.0",
+>>>>>>> b31231bb0b93c1b3e1da5433e3e8a1df20c3bddf
         "fruitcake/laravel-cors": "^2.0.5",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.0",
