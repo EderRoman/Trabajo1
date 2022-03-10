@@ -1,10 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-<<<<<<< HEAD
-use App\Http\Controllers\EmpleadoController;
-=======
->>>>>>> b31231bb0b93c1b3e1da5433e3e8a1df20c3bddf
 
 /*
 |--------------------------------------------------------------------------
@@ -20,12 +16,12 @@ use App\Http\Controllers\EmpleadoController;
 Route::get('/', function () {
     return view('welcome');
 });
-<<<<<<< HEAD
 
-Route::get('/empleado', function () {
-    return view('empleado.index');
+Route::get('/home', function () {
+    return view('home');
 });
 
-Route::get('empleado/create',[EmpleadoController::class,'create']);
-=======
->>>>>>> b31231bb0b93c1b3e1da5433e3e8a1df20c3bddf
+Route::get('/v1/newfile', function () {
+    return view('v1/newfile');
+});
+
